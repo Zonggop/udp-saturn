@@ -1,14 +1,3 @@
-# author:
-# █▀█ █▀█ █▀ ▀█▀
-# █▄█ ▀▀█ ▄█ ░█░
-# name:
-# UDP- █▀█ █▀ ▀█▀ █▀▀ █▀█
-#    ▀▀█ ▄█ ░█░ ██▄ █▀▄
-# description:
-# A potent UDP flooding tool designed for stress testing network resilience and evaluating security measures.
-# warning: 
-# This is strongly for educational purposes only and for testing your ddos protection, I am not responsible for any damages you have or may cause.
-
 import sys
 import os
 import ipaddress
@@ -50,7 +39,7 @@ def main():
     print("\033[1;31m█░█░█▀▄░█▀█ \033[0m")
     print("\033[1;31m█▄█░█▄█░█▀▀ \033[0m")
     print("")
-    print("\033[1;31m[Warning]\033[1;37m This tool is Strong idk maybe your phone can got shutdown!")
+    print("\033[1;31m[Warning]\033[1;37m This tool is not work in some phone idk maybe your phone can got shutdown!")
     print("")
     
     while True:
